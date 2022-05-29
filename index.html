@@ -1,146 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
 
-  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-<div class="app">
-  <div class="app__menue">
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="app__menue">
+        <div class="menue__links">
+          <img src="./images/logo.svg" alt="image of logo " />
+          <ul>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+          </ul>
+        </div>
+        <div class="menue__buttons">
+          <div class="button__login">Login</div>
+          <div class="button__signup">Sign Up</div>
+        </div>
+      </div>
 
-    <div class="menue__links">   
-       <img src="./images/logo.svg" alt="image of logo ">
-       <ul><li>  Features</li>
-       <li>    
-        Pricing</li>
-       <li>   Resources</li></ul>
+      <div class="app__header">
+        <div class="header__left">
+          <h1>More than just shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
 
-   
+          <div class="header__button">Get Started</div>
+        </div>
+        <div class="header__right"></div>
+      </div>
+      <div class="app__content">
+        <div class="content__form">
+          <input type="text" placeholder="Shorten a link here..." />
+          <div class="form__button">Shorten It!</div>
+        </div>
+
+        <div class="content__statistics">
+          <div class="statistics__header">
+            <h1>Advanced Statistics</h1>
+            <p>
+              Track how your links are performing across the web with our
+              advanced statistics dashboard.
+            </p>
+          </div>
+          <div class="statistics__detaills">
+            <div class="detaills">
+              <img
+                src="./images/icon-brand-recognition.svg"
+                alt="icon Recognition"
+              />
+              <h2>Brand Recognition</h2>
+              <p>
+                Boost your brand recognition with each click. Generic links
+                don’t mean a thing. Branded links help instil confidence in your
+                content.
+              </p>
+            </div>
+
+            <div class="detaills">
+              <img
+                src="./images/icon-detailed-records.svg"
+                alt="icon Records"
+              />
+              <h2>Detailed Records</h2>
+              <p>
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+
+            <div class="detaills">
+              <img
+                src="./images/icon-fully-customizable.svg"
+                alt="icon Customizable"
+              />
+              <h2>Fully Customizable</h2>
+              <p>
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+
+          <div class="bar"></div>
+        </div>
+      </div>
+      <div class="app__prefooter">Boost your links today Get Started</div>
+      <div class="app__footer">
+        Features Link Shortening Branded Links Analytics Resources Blog
+        Developers Support Company About Our Team Careers Contact
+      </div>
     </div>
-    <div class="menue__buttons">
-      <div class="button__login">      Login</div>
-      <div class="button__signup">
-        Sign Up</div>
-
-    </div>
- 
-  </div>
-
-
-
-  <div class="app__header">
-
-    <div class="header__left"> 
-      
-      <h1>More than just shorter links</h1>
-  <p>
-      Build your brand’s recognition and get detailed insights 
-      on how your links are performing.
-    </p>
-    
-  <div class="header__button">  
-      Get Started
-  </div></div>
-    <div class="header__right">
-
-    </div>
-   
-    
-    </div>
-  <div class="app__content">
-<div class="content__form">
-  <input type="text" placeholder="Shorten a link here...">
-  <div class="form__button">Shorten It!</div>
-  </div>
-
-  <div class="content__statistics">
-
-    <div class="statistics__header">
-    <h1>    Advanced Statistics  </h1>
-    <p>
-    Track how your links are performing across the web with our 
-    advanced statistics dashboard.
-  </p>
-</div>
-  <div class="statistics__detaills">
-<div class="detaills">
-  <img src="./images/icon-brand-recognition.svg" alt="icon Recognition">
-  <h2>Brand Recognition</h2>
-  <p>
-    Boost your brand recognition with each click. Generic links don’t 
-    mean a thing. Branded links help instil confidence in your content.
-  </p>
-  </div>
-
-
-  <div class="detaills">
-    <img src="./images/icon-detailed-records.svg" alt="icon Records">
-  <h2> 
-    Detailed Records
-  </h2>
-  <p>
-    Gain insights into who is clicking your links. Knowing when and where 
-    people engage with your content helps inform better decisions.
-  </p>
-  </div>
-
-
-  <div class="detaills">
-    <img src="./images/icon-fully-customizable.svg" alt="icon Customizable">
-  <h2>Fully Customizable</h2>
-  <p>
-    Improve brand awareness and content discoverability through customizable 
-    links, supercharging audience engagement.
-  </p>
-  </div>
-</div>
-
-  </div>
-  </div>
-  <div class="app__prefooter">
-    
-  Boost your links today
-
-  Get Started
-  </div>
-  <div class="app__footer">
-    
-  Features
-
-  Link Shortening
-  Branded Links
-  Analytics
-
-  Resources
-
-  Blog
-  Developers
-  Support
-
-  Company
-
-  About
-  Our Team
-  Careers
-  Contact
-  </div>
-</div>
- 
-
- 
-
-
-
-</body>
+  </body>
 </html>
