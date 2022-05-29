@@ -7,11 +7,13 @@ li {
   list-style: none;
   cursor: pointer;
   color: var(--Grayish_Violet);
-  font-weight: 700;
 }
 p {
   font-weight: 400;
   color: var(--Gray);
+}
+img {
+  cursor: pointer;
 }
 .app {
   width: 100%;
@@ -42,7 +44,9 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  font-weight: 700;
 }
+
 .menue__buttons {
   display: flex;
   width: max-content;
@@ -224,4 +228,72 @@ p {
   margin-top: 32rem;
   position: absolute;
   z-index: 0;
+}
+
+/* Styling the Prefooter version Desktop  */
+.app__prefooter {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 4rem;
+  background-color: var(--Dark_Violet);
+  background-image: url(./images/bg-boost-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+
+.app__prefooter h2 {
+  color: var(--White);
+  font-weight: 700;
+  font-size: 37px;
+  padding-bottom: 1.2rem;
+}
+.prefooter__button {
+  width: max-content;
+  background-color: var(--Cyan);
+  color: var(--White);
+  padding: 0.7rem 2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+/* Styling the footer version Desktop */
+
+.app__footer {
+  width: 100%;
+  background-color: var(--Very_Dark_Violet);
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+}
+.footer__logo {
+  width: 28%;
+}
+.footer__logo img {
+  filter: brightness(0) invert(1);
+}
+.footer__links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+.footer__links ul li:nth-child(1) {
+  color: var(--White);
+  padding-bottom: 1.5rem;
+}
+.footer__links ul li {
+  padding: 5px;
+}
+.footer__icons {
+  display: flex;
+  width: 16%;
+  justify-content: space-between;
+}
+.footer__icons img {
+  width: 30px;
+  height: 30px;
+}
+img {
+  cursor: pointer;
 }
