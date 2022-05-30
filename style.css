@@ -78,6 +78,7 @@ img {
 }
 
 /* **** Styling the menue Version mobile *****  */
+
 @media (max-width: 900px) {
   .app__menue {
     display: flex;
@@ -86,9 +87,40 @@ img {
     align-items: center;
     justify-content: space-between;
   }
-  .menue__links ul,
+
   .menue__buttons {
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    margin-top: 24rem;
+    padding: 2rem 2rem;
+    position: absolute;
     display: none;
+    background-color: var(--Dark_Violet);
+    z-index: 99;
+    text-align: center;
+    border-radius: 1rem;
+  }
+  .menue__links {
+    display: flex;
+    width: 100%;
+    gap: 0;
+  }
+  .menue__links ul {
+    flex-direction: column;
+    width: 100%;
+    gap: 1.3rem;
+    border-bottom: 0.01px solid var(--Grayish_Violet);
+
+    padding-bottom: 1.5rem;
+  }
+
+  .menue__links ul li {
+    color: var(--White);
+  }
+  .button__login {
+    padding: 1rem 0;
+    color: var(--White);
   }
   .menue__mobile {
     display: block;
@@ -223,7 +255,6 @@ img {
   border-radius: 5px;
   width: 75%;
   text-align: left;
-
   font-size: 21px;
 }
 .content__form .form__button {
@@ -332,6 +363,7 @@ img {
   .content__form input {
     width: 100%;
     padding: 0.7rem 2rem;
+    font-size: 17px;
   }
 
   .content__form .form__button {
