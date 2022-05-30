@@ -157,6 +157,7 @@ img {
     flex-direction: column;
     padding: 2rem 0;
     align-items: center;
+    margin-bottom: 8rem;
   }
   .header__left,
   .header__right {
@@ -194,6 +195,7 @@ img {
 }
 
 /* *** Styling the content statistics version desktop  *****/
+
 .app__content {
   width: 100%;
   padding: 2rem 10rem;
@@ -311,7 +313,94 @@ img {
   z-index: 0;
 }
 
-/* Styling the Prefooter version Desktop  */
+/* **** Stlying the statistics version mobile **** */
+
+@media (max-width: 900px) {
+  .app__content {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .content__form {
+    padding: 2rem 1.2rem;
+    flex-direction: column;
+    background-image: url(./images/bg-shorten-mobile.svg);
+    background-position: 60px -65px;
+    margin-top: -8rem;
+  }
+
+  .content__form input {
+    width: 100%;
+    padding: 0.7rem 2rem;
+  }
+
+  .content__form .form__button {
+    text-align: center;
+    width: 100%;
+  }
+  .statistics__header {
+    padding: 0;
+    padding: 5rem 0 3rem 0;
+  }
+  .statistics__header h1 {
+    padding-bottom: 20px;
+    font-size: 28px;
+  }
+  .statistics__header p {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .statistics__detaills {
+    grid-template-columns: none;
+    grid-gap: 0rem;
+  }
+
+  .detaills {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .detaills img {
+    background-color: var(--Dark_Violet);
+    padding: 1.5rem;
+    border-radius: 50%;
+    margin-top: -8rem;
+  }
+  .detaills h2 {
+    font-size: 22px;
+    color: var(--Very_Dark_Viole);
+  }
+  .detaills p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .detaills:nth-child(1) {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .detaills:nth-child(2) {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .detaills:nth-child(3) {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .bar {
+    background-color: var(--Cyan);
+    height: 900px;
+    width: 8px;
+    margin-top: 20rem;
+    position: absolute;
+    z-index: 0;
+    transform: rotateY(180eg);
+  }
+}
+
+/* ***Styling the Prefooter version Desktop   *****/
 .app__prefooter {
   display: flex;
   width: 100%;
