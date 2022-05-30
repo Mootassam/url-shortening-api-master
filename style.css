@@ -46,7 +46,9 @@ img {
   gap: 2rem;
   font-weight: 700;
 }
-
+.menue__links ul li:hover {
+  color: var(--Very_Dark_Violet);
+}
 .menue__buttons {
   display: flex;
   width: max-content;
@@ -67,6 +69,9 @@ img {
   color: #ffff;
   padding: 0.5rem 2rem;
   border-radius: 3rem;
+}
+.button__signup:hover {
+  background-color: var(--hover);
 }
 
 /* ***** Styling  The Desktop Menue ***** */
@@ -117,6 +122,9 @@ img {
   border-radius: 3rem;
   cursor: pointer;
 }
+.header__button:hover {
+  background-color: var(--hover);
+}
 
 /* Styling the content statistics version desktop */
 .app__content {
@@ -157,6 +165,9 @@ img {
   color: var(--White);
   font-weight: 500;
   cursor: pointer;
+}
+.form__button:hover {
+  background-color: var(--hover);
 }
 .content__statistics {
   display: flex;
@@ -260,7 +271,9 @@ img {
   border-radius: 3rem;
   cursor: pointer;
 }
-
+.prefooter__button:hover {
+  background-color: var(--hover);
+}
 /* Styling the footer version Desktop */
 
 .app__footer {
@@ -288,6 +301,9 @@ img {
 .footer__links ul li {
   padding: 5px;
 }
+.footer__links ul li:hover {
+  color: var(--Cyan);
+}
 .footer__icons {
   display: flex;
   width: 16%;
@@ -296,6 +312,9 @@ img {
 .footer__icons img {
   width: 30px;
   height: 30px;
+}
+.footer__icons img:hover {
+  color: var(--Cyan);
 }
 img {
   cursor: pointer;
