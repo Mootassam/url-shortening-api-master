@@ -447,7 +447,7 @@ img {
   }
 }
 
-/* ****Styling the footer version Desktop *****/
+/* **** Styling the footer version Desktop *****/
 
 .app__footer {
   width: 100%;
@@ -491,4 +491,35 @@ img {
 }
 img {
   cursor: pointer;
+}
+
+/* **** Styling the footer Verison mobile **** */
+@media (max-width: 900px) {
+  .app__footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem;
+    gap: 2rem;
+  }
+  .footer__logo {
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .footer__links {
+    display: grid;
+    grid-template-columns: none;
+    grid-gap: 1.5rem;
+    text-align: center;
+  }
+  .footer__icons {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .footer__icons img {
+    width: 20px;
+    height: 20px;
+  }
 }
