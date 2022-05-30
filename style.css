@@ -106,7 +106,7 @@ img {
   background-image: url(./images/illustration-working.svg);
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 65vh;
 }
 
 .header__button {
@@ -142,9 +142,12 @@ img {
 
 .content__form input {
   border: 0;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   border-radius: 5px;
   width: 75%;
+  text-align: left;
+
+  font-size: 21px;
 }
 .content__form .form__button {
   width: max-content;
