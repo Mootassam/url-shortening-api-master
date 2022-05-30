@@ -430,7 +430,24 @@ img {
 .prefooter__button:hover {
   background-color: var(--hover);
 }
-/* Styling the footer version Desktop */
+
+/* ****Stlying the prefooter For version mobile ***** */
+@media (max-width: 900px) {
+  .app__prefooter {
+    padding: 4rem 0rem;
+    background-image: url(./images/bg-boost-mobile.svg);
+    text-align: center;
+  }
+
+  .app__prefooter h2 {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 27px;
+    padding-bottom: 1.2rem;
+  }
+}
+
+/* ****Styling the footer version Desktop *****/
 
 .app__footer {
   width: 100%;
