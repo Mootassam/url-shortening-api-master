@@ -73,13 +73,38 @@ img {
 .button__signup:hover {
   background-color: var(--hover);
 }
+.menue__mobile {
+  display: none;
+}
+
+/* **** Styling the menue Version mobile *****  */
+@media (max-width: 900px) {
+  .app__menue {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menue__links ul,
+  .menue__buttons {
+    display: none;
+  }
+  .menue__mobile {
+    display: block;
+  }
+  .menue__mobile i {
+    font-size: 26px;
+    color: var(--Gray);
+  }
+}
 
 /* ***** Styling  The Desktop Menue ***** */
 
 .app__header {
   display: flex;
   justify-content: center;
-  padding: 3rem 0 0 10rem;
+  padding: 3rem 0 7rem 10rem;
   width: 100%;
   align-items: flex-start;
 }
@@ -126,7 +151,49 @@ img {
   background-color: var(--hover);
 }
 
-/* Styling the content statistics version desktop */
+/* **** Styling the Header for version Mobile  ***** */
+@media screen and (max-width: 900px) {
+  .app__header {
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+  }
+  .header__left,
+  .header__right {
+    flex-basis: auto;
+  }
+  .header__left {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    order: 2;
+    padding: 0 2rem;
+  }
+
+  .header__left h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .header__left p {
+    text-align: center;
+    margin-top: 0.5rem;
+    width: 100%;
+    font-size: 17px;
+  }
+
+  .header__right {
+    z-index: 2;
+    margin: -4rem 0 1.5rem 0;
+    width: 100%;
+    height: 60vh;
+    background-position: 30px 10px;
+    background-size: cover;
+    order: 1;
+  }
+}
+
+/* *** Styling the content statistics version desktop  *****/
 .app__content {
   width: 100%;
   padding: 2rem 10rem;
