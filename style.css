@@ -161,7 +161,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 .header__left h1 {
@@ -186,12 +186,14 @@ img {
 }
 
 .header__button {
+  margin-top: 1rem;
   width: max-content;
   background-color: var(--Cyan);
   color: var(--White);
-  padding: 0.7rem 2rem;
+  padding: 0.8rem 2.5rem;
   border-radius: 3rem;
   cursor: pointer;
+  font-weight: 700;
 }
 .header__button:hover {
   background-color: var(--hover);
@@ -252,7 +254,7 @@ img {
   justify-content: center;
   align-items: center;
   background-color: var(--Dark_Violet);
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
   border-radius: 0.5rem;
   background-image: url(./images/bg-shorten-desktop.svg);
   background-size: cover;
@@ -260,17 +262,17 @@ img {
   background-repeat: no-repeat;
   margin: 0 0.5rem;
   gap: 2rem;
-  margin-top: -6rem;
+  margin-top: -7rem;
 }
 
 .content__statistics {
-  marign: -1rem auto auto auto auto
+  margin: -1rem auto auto auto auto;
   padding-bottom: 4rem;
 }
 
 .content__form input {
   border: 0;
-  padding: 1.4rem 2rem;
+  padding: 1.2rem 2rem;
   border-radius: 8px;
   width: 75%;
   text-align: left;
@@ -279,7 +281,7 @@ img {
 .content__form .form__button {
   width: max-content;
   background-color: var(--Cyan);
-  padding: 1.4rem 2rem;
+  padding: 1.2rem 2rem;
   border-radius: 8px;
   color: var(--White);
   font-weight: 500;
