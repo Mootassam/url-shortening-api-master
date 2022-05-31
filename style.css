@@ -93,7 +93,7 @@ img {
 
 /* **** Styling the menue Version mobile *****  */
 
-@media (max-width: 900px) {
+@media (max-width: 1026px) {
   .app__menue {
     display: flex;
     width: 100%;
@@ -210,7 +210,7 @@ img {
 }
 
 /* **** Styling the Header for version Mobile  ***** */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1026px) {
   .app__header {
     flex-direction: column;
     padding: 2rem 0;
@@ -376,7 +376,7 @@ img {
 
 /* **** Stlying the statistics version mobile **** */
 
-@media (max-width: 900px) {
+@media (max-width: 1026px) {
   .app__content {
     width: 100%;
     padding: 2rem;
@@ -500,7 +500,7 @@ img {
 }
 
 /* ****Stlying the prefooter For version mobile ***** */
-@media (max-width: 900px) {
+@media (max-width: 1026px) {
   .app__prefooter {
     padding: 4rem 0rem;
     background-image: url(./images/bg-boost-mobile.svg);
@@ -564,7 +564,7 @@ img {
 }
 
 /* **** Styling the footer Verison mobile **** */
-@media (max-width: 900px) {
+@media (max-width: 1026px) {
   .app__footer {
     flex-direction: column;
     align-items: center;
