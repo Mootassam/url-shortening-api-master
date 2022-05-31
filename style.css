@@ -169,7 +169,7 @@ img {
   color: var(--Very_Dark_Violet);
   font-size: 80px;
   line-height: 1.1;
-  letter-spacing: -1.5px;
+  letter-spacing: -1.6px;
 }
 .header__left p {
   padding: 5px 0 2.3rem 0;
@@ -177,7 +177,7 @@ img {
   font-size: 21px;
   font-weight: 500;
   line-height: 1.6;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.7px;
 }
 
 .header__right {
@@ -193,7 +193,7 @@ img {
   width: max-content;
   background-color: var(--Cyan);
   color: var(--White);
-  padding: 0.9rem 2.6rem;
+  padding: 0.9rem 2.8rem;
   border-radius: 3rem;
   cursor: pointer;
   font-weight: 700;
@@ -330,7 +330,7 @@ img {
   align-items: flex-start;
   gap: 1rem;
   background-color: var(--White);
-  padding: 5rem 2rem 2rem 2rem;
+  padding: 5rem 2rem 2.5rem 2rem;
   border-radius: 5px;
   position: relative;
   z-index: 1;
@@ -356,7 +356,7 @@ img {
   margin-top: 3rem;
 }
 .detaills:nth-child(3) {
-  margin-top: 5.5rem;
+  margin-top: 5.7rem;
 }
 .bar {
   background-color: var(--Cyan);
