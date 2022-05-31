@@ -26,7 +26,7 @@ img {
 .app__menue {
   display: flex;
   width: 100%;
-  padding: 2rem 10rem;
+  padding: 3rem 10rem 2rem 10rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -51,7 +51,7 @@ img {
 }
 .menue__buttons {
   display: flex;
-  width: max-content;
+  width: 100%;
   height: auto;
   gap: 2.4rem;
   align-items: center;
@@ -168,7 +168,7 @@ img {
   background-image: url(./images/illustration-working.svg);
   background-repeat: no-repeat;
   width: 100%;
-  height: 65vh;
+  height: 70vh;
 }
 
 .header__button {
