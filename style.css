@@ -76,7 +76,7 @@ img {
 .button__signup {
   background-color: var(--Cyan);
   color: #ffff;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 3rem;
 }
 .button__signup:hover {
@@ -175,7 +175,7 @@ img {
 }
 
 .header__right {
-  margin-top: -3rem;
+  margin-top: -1rem;
   background-image: url(./images/illustration-working.svg);
   background-repeat: no-repeat;
   width: 100%;
@@ -497,7 +497,7 @@ img {
   background-color: var(--Very_Dark_Violet);
   display: flex;
   justify-content: space-between;
-  padding: 5rem 10rem;
+  padding: 3.5rem 10rem;
 }
 .footer__logo {
   width: 28%;
