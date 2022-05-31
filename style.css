@@ -161,7 +161,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .header__left h1 {
@@ -264,12 +264,13 @@ img {
 }
 
 .content__statistics {
+  marign: -1rem auto auto auto auto
   padding-bottom: 4rem;
 }
 
 .content__form input {
   border: 0;
-  padding: 1rem 2rem;
+  padding: 1.4rem 2rem;
   border-radius: 8px;
   width: 75%;
   text-align: left;
@@ -278,7 +279,7 @@ img {
 .content__form .form__button {
   width: max-content;
   background-color: var(--Cyan);
-  padding: 0.7rem 2.2rem;
+  padding: 1.4rem 2rem;
   border-radius: 8px;
   color: var(--White);
   font-weight: 500;
