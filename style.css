@@ -460,7 +460,7 @@ img {
   display: flex;
   width: 100%;
   align-items: center;
-  padding: 3.8rem;
+  padding: 3.72rem;
   background-color: var(--Dark_Violet);
   background-image: url(./images/bg-boost-desktop.svg);
   background-position: center;
@@ -511,7 +511,7 @@ img {
   background-color: var(--Very_Dark_Violet);
   display: flex;
   justify-content: space-between;
-  padding: 5rem 10rem;
+  padding: 4.5rem 10rem;
 }
 .footer__logo {
   width: 28%;
