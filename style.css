@@ -360,7 +360,7 @@ img {
 }
 .bar {
   background-color: var(--Cyan);
-  height: 11px;
+  height: 9px;
   width: 70%;
   margin-top: 31.5rem;
   position: absolute;
@@ -465,20 +465,21 @@ img {
   background-image: url(./images/bg-boost-desktop.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   flex-direction: column;
 }
 
 .app__prefooter h2 {
   color: var(--White);
   font-weight: 700;
-  font-size: 37px;
+  font-size: 40px;
   padding-bottom: 1.2rem;
 }
 .prefooter__button {
   width: max-content;
   background-color: var(--Cyan);
   color: var(--White);
-  padding: 0.7rem 2rem;
+  padding: 0.9rem 2.6rem;
   border-radius: 3rem;
   cursor: pointer;
 }
@@ -491,6 +492,7 @@ img {
   .app__prefooter {
     padding: 4rem 0rem;
     background-image: url(./images/bg-boost-mobile.svg);
+
     text-align: center;
   }
 
@@ -524,10 +526,10 @@ img {
 }
 .footer__links ul li:nth-child(1) {
   color: var(--White);
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 .footer__links ul li {
-  padding: 5px;
+  padding: 3px;
 }
 .footer__links ul li:hover {
   color: var(--Cyan);
