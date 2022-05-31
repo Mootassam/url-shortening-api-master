@@ -104,36 +104,43 @@ img {
 
   .menue__buttons {
     display: flex;
-    width: 85%;
+    width: calc(100% - 64px);
     flex-direction: column;
     margin-top: 24rem;
     padding: 2rem 2rem;
     position: absolute;
-    display: none;
+    justify-content: center;
+    align-items: center;
     background-color: var(--Dark_Violet);
     z-index: 99;
     text-align: center;
     border-radius: 1rem;
   }
-  .menue__links {
-    display: flex;
-    width: 100%;
-    gap: 0;
-  }
-  .menue__links ul {
+
+  .menue__buttons ul {
     flex-direction: column;
     width: 100%;
     gap: 1.3rem;
     border-bottom: 0.01px solid var(--Grayish_Violet);
     padding-bottom: 1.5rem;
   }
-
-  .menue__links ul li {
+  .menue__buttons ul li {
     color: var(--White);
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    margin: 0 auto;
   }
   .button__login {
     padding: 1rem 0;
     color: var(--White);
+  }
+  .button__signup {
+    width: 100%;
+    padding: 0.7rem 5rem;
   }
   .menue__mobile {
     display: block;
@@ -527,7 +534,7 @@ img {
 .footer__links ul li:nth-child(1) {
   color: var(--White);
   padding-bottom: 1rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 .footer__links ul li {
   padding: 3px;
