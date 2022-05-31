@@ -177,7 +177,7 @@ img {
   font-size: 21px;
   font-weight: 500;
   line-height: 1.6;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.6px;
 }
 
 .header__right {
@@ -189,7 +189,7 @@ img {
 }
 
 .header__button {
-  margin-top: 0.3rem;
+  margin-top: 0.1rem;
   width: max-content;
   background-color: var(--Cyan);
   color: var(--White);
@@ -356,7 +356,7 @@ img {
   margin-top: 3rem;
 }
 .detaills:nth-child(3) {
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 .bar {
   background-color: var(--Cyan);
