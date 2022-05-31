@@ -270,7 +270,7 @@ img {
 
 .content__statistics {
   margin: -1rem auto auto auto auto;
-  padding-bottom: 5.5rem;
+  padding-bottom: 5.3rem;
 }
 
 .content__form input {
@@ -322,7 +322,6 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  
 }
 .detaills {
   display: flex;
@@ -361,7 +360,7 @@ img {
 }
 .bar {
   background-color: var(--Cyan);
-  height: 11px;
+  height: 12px;
   width: 70%;
   margin-top: 31.5rem;
   position: absolute;
