@@ -270,7 +270,7 @@ img {
 
 .content__statistics {
   margin: -1rem auto auto auto auto;
-  padding-bottom: 6rem;
+  padding-bottom: 5.5rem;
 }
 
 .content__form input {
@@ -322,6 +322,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
+  
 }
 .detaills {
   display: flex;
