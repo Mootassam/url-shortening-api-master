@@ -460,7 +460,7 @@ img {
   display: flex;
   width: 100%;
   align-items: center;
-  padding: 3.5rem;
+  padding: 3.7rem;
   background-color: var(--Dark_Violet);
   background-image: url(./images/bg-boost-desktop.svg);
   background-position: center;
@@ -479,7 +479,7 @@ img {
   width: max-content;
   background-color: var(--Cyan);
   color: var(--White);
-  padding: 0.9rem 2.6rem;
+  padding: 0.9rem 3rem;
   border-radius: 3rem;
   cursor: pointer;
 }
@@ -511,7 +511,7 @@ img {
   background-color: var(--Very_Dark_Violet);
   display: flex;
   justify-content: space-between;
-  padding: 3.5rem 10rem;
+  padding: 4rem 10rem;
 }
 .footer__logo {
   width: 28%;
