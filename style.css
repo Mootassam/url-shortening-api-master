@@ -270,7 +270,7 @@ img {
 
 .content__statistics {
   margin: -1rem auto auto auto auto;
-  padding-bottom: 5.3rem;
+  padding-bottom: 5.2rem;
 }
 
 .content__form input {
@@ -360,7 +360,7 @@ img {
 }
 .bar {
   background-color: var(--Cyan);
-  height: 12px;
+  height: 11px;
   width: 70%;
   margin-top: 31.5rem;
   position: absolute;
