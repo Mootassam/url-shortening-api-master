@@ -399,6 +399,8 @@ img {
   .content__form .form__button {
     text-align: center;
     width: 100%;
+
+    padding: 0.7rem 2.3rem;
   }
   .statistics__header {
     padding: 0;
@@ -407,6 +409,7 @@ img {
   .statistics__header h1 {
     padding-bottom: 20px;
     font-size: 28px;
+    text-align: center;
   }
   .statistics__header p {
     width: 100%;
@@ -431,10 +434,12 @@ img {
     margin-top: -8rem;
   }
   .detaills h2 {
+    text-align: center;
     font-size: 22px;
     color: var(--Very_Dark_Viole);
   }
   .detaills p {
+    text-align: center;
     font-size: 15px;
     line-height: 1.7;
   }
