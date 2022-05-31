@@ -511,7 +511,7 @@ img {
   background-color: var(--Very_Dark_Violet);
   display: flex;
   justify-content: space-between;
-  padding: 4.5rem 10rem;
+  padding: 4.5rem 10rem 4rem 10rem;
 }
 .footer__logo {
   width: 28%;
