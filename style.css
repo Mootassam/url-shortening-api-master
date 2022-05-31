@@ -148,7 +148,7 @@ img {
 .app__header {
   display: flex;
   justify-content: center;
-  padding: 3rem 0 7rem 10rem;
+  padding: 3rem 0 9rem 10rem;
   width: 100%;
   align-items: flex-start;
 }
