@@ -169,7 +169,7 @@ img {
   color: var(--Very_Dark_Violet);
   font-size: 80px;
   line-height: 1.1;
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
 }
 .header__left p {
   padding: 5px 0 2.3rem 0;
@@ -177,7 +177,7 @@ img {
   font-size: 21px;
   font-weight: 500;
   line-height: 1.6;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.4px;
 }
 
 .header__right {
@@ -193,7 +193,7 @@ img {
   width: max-content;
   background-color: var(--Cyan);
   color: var(--White);
-  padding: 0.8rem 2.5rem;
+  padding: 0.9rem 2.6rem;
   border-radius: 3rem;
   cursor: pointer;
   font-weight: 700;
@@ -314,7 +314,7 @@ img {
 .statistics__header p {
   text-align: center;
   font-weight: 500;
-  width: 58%;
+  width: 48%;
   line-height: 1.8;
 }
 
@@ -360,7 +360,7 @@ img {
 }
 .bar {
   background-color: var(--Cyan);
-  height: 10px;
+  height: 11px;
   width: 70%;
   margin-top: 31.5rem;
   position: absolute;
