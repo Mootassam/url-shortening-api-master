@@ -80,7 +80,7 @@ img {
 .button__signup {
   background-color: var(--Cyan);
   color: #ffff;
-  padding: 0.5rem 1.3rem;
+  padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   font-weight: 700;
 }
@@ -161,7 +161,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 4.2rem;
+  margin-top: 4.3rem;
 }
 
 .header__left h1 {
