@@ -20,7 +20,7 @@ img {
   overflow: hidden;
   justify-content: center;
   align-items: baseline;
-  width: min(1700px, 97%);
+  width: min(1500px, 100%);
   margin-inline: auto;
 }
 
