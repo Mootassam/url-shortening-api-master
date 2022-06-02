@@ -20,6 +20,8 @@ img {
   overflow: hidden;
   justify-content: center;
   align-items: baseline;
+  width: min(1700px, 97%);
+  margin-inline: auto;
 }
 
 /* ***** Styling the desktop Menue ***** */
@@ -372,6 +374,7 @@ img {
   margin-top: 31.5rem;
   position: absolute;
   z-index: 0;
+  width: min(600px, 97%);
 }
 
 /* **** Stlying the statistics version mobile **** */
